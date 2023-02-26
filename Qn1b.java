@@ -50,7 +50,7 @@ public class Qn1b {
     public static void main(String[] args) {
         int n = 4;
         int[][] connections = {{0,1}, {0,2}, {1,3}, {1,6}, {2,4}, {4,6}, {4,5}, {5,7}};
-        int failedDevice = 2;
+        int failedDevice = 4;
         List<Integer> impactedDevices = findImpactedDevices(n, connections, failedDevice);
         System.out.println("Impacted devices: " + impactedDevices);
     }
