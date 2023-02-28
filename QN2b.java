@@ -53,7 +53,7 @@ public class QN2b {
         children[0].add(1);
         children[0].add(2);
         children[0].add(3);
-        Ques2b sc = new Ques2b();
+        QN2b sc = new QN2b();
         System.out.println(sc.minimumServiceCenters(5, children));
     }
 }
